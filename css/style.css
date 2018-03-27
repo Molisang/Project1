@@ -1,0 +1,311 @@
+body{
+    display: grid;
+    grid-template-rows:auto; 
+        background-image: url("../img/kitadake-1352353_1920.jpg");
+    background-repeat: repeat;
+    background-size: auto;
+}
+
+.header{
+    display: flex;
+    background-color:black;
+    grid-template-columns: fit-content(20%) auto;
+    opacity: 0.7;
+}
+
+select{
+    display: none;
+}
+
+#logo{
+    display: flex;
+    margin-left: 15px;
+    padding: 14px;
+    color: white;
+    font-size: 1em;
+/*    list-style-type: none;*/
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul {
+/*    display: inline;*/
+/*    text-align: center;*/
+    list-style-type: none;
+    margin: auto;
+    padding: auto;
+/*    background-color: #333;*/
+}
+
+
+ul li{
+    display: inline-flex;
+}
+
+li a {
+    display: grid;
+    color: white;
+/*    text-align: center;*/
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover {
+ /*   background-color: #111;*/
+ opacity: 0.8;
+}
+
+.active {
+background-color:#4CAF50;
+}
+
+.main{
+    display: grid;
+}
+
+.background-img{
+    display: flex;
+    /*background-image: url("../img/kitadake-1352353_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;*/
+    background-color: grey;
+    opacity: 0.6;
+}
+
+.main{
+    display: grid;
+/*    background-color: grey;
+    opacity: 0.6;
+*/    border-top: solid 2px black;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(2,auto);
+/*    border-color: black;
+    border-style: solid 2px;*/
+}
+
+.Overview{
+/*    display: flex;*/
+    text-align: center;
+/*    grid-template-rows: repeat(2,auto);*/
+/*    grid-template-columns: repeat(2,auto);*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+}
+
+
+
+.main #img1{
+    display: flex;
+    width: 100%;
+    padding-top: 3em;
+ /*   margin-left: 50px;*/
+    opacity: 1;
+}
+
+section h1{
+    text-transform: uppercase;
+    padding: 1.5em;
+ /*   display: inline-grid;*/
+    color: white;
+    font-weight: bold; 
+}
+
+#P1{
+/*    display: inline-grid;*/
+    color: white;
+    padding: 1.2em;
+    align-self: center;
+}
+
+.main2{
+    display: grid;
+/*    background-color: grey;*/
+    padding-right: 15px;
+    grid-template-rows: fit-content(30%) auto;
+/*    opacity: 0.6;*/
+/*    border-color: black;
+    border-style: solid 2px;*/
+}
+
+#P2{
+/*    display: inline-grid;*/
+    color: white;
+    padding: 1.2em;
+}
+
+
+
+
+.Mockup{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-column-gap:10px;
+    opacity: 0.9;
+    justify-content: center;
+/*    background-color: lightgrey;*/
+}
+
+.Mockup_content{
+    background-color:lightgrey;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.apps-img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.Mockup h3{
+    padding-left: 1.5em;
+    padding-top: 1em;
+ /*   display: inline-grid;*/
+    color: grey;
+    font-weight: bold;     
+}
+
+#P3{
+    color: grey;
+    padding-left: 1.5em;
+    padding-bottom: 1em;
+}
+
+
+
+
+.research{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-column-gap:5px;
+    grid-row-gap:10px;
+    background-color: grey;
+    opacity: 0.8;
+}
+
+.research_content{
+    background-color: white;
+    color: black;
+    padding: 1.5em;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.Introduction{
+    display: grid;
+    background-color: lightgrey;
+    grid-template-columns: repeat(5,auto);
+    grid-column-gap:5px;
+    padding: 5px;
+    text-align: center;
+    align-self: start;
+    opacity: 0.7;
+}
+
+
+.Introduction div:nth-child(1){
+    background-color: grey;
+    color: black;
+    padding: 5px;
+/*    align-self: start;*/
+}
+
+.Introduction div:nth-child(2){
+    background-color: white;
+    color: black;
+    padding: 5px;
+/*    align-self: center;*/
+}
+
+.Introduction div:nth-child(3){
+    background-color: black;
+    color: lightgrey;
+    padding: 5px;
+/*    align-self: start;*/
+}
+
+.Introduction div:nth-child(4){
+    background-color: white;
+    color: black;
+    padding: 5px;
+/*    align-self: center;*/
+}
+
+.Introduction div:nth-child(5){
+    background-color: grey;
+    color: black;
+    padding: 5px;
+/*    align-self: start;*/
+}
+
+.Summary{
+    display: flex;
+}
+
+footer{
+/*    display: grid;*/
+
+    border-top: solid 2px white;
+/*    background-color: black;*/
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+       flex: 0 0 auto;
+
+}
+
+
+
+
+
+/*@media screen and (max-width: 640px) {
+
+ nav ul { display: none; }
+ nav select { display: inline-block; }
+ }
+}
+
+
+@media screen and (max-width: 640px) {
+
+nav ul { display: none; }
+nav select { display: inline-block; }
+ }
+}*/
+
+@media screen and (max-width: 720px) {
+     nav ul { display: none; }
+     nav select { display: inline-block; }
+     .main #img1{
+    display: none;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .Introduction div:nth-child(1){
+        align-self: start;
+    }
+
+    .Introduction div:nth-child(2){
+        align-self: center;
+    }
+
+    .Introduction div:nth-child(3){
+        align-self: start;
+    }
+
+    .Introduction div:nth-child(4){
+        align-self: center;
+    }
+
+    .Introduction div:nth-child(5){
+        align-self: start;
+    }
+
+ 
+}
